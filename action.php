@@ -58,14 +58,10 @@
 		echo json_encode($json);
 	}
 
-
-
 	// get all emp records in database
 	if(!empty($_POST['action']) && $_post['action']=="listEmp"){
 	    $empObject->getEmpList();
 	}
-
-
 
 	// Delete Action 
 	if(!empty($_POST['action']) && $_POST['action'] == 'deleteEmp'){
