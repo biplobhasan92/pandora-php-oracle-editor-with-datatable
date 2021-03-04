@@ -435,8 +435,7 @@
 			                </div>
 			                <div data-role="progress" data-value="35" data-cls-bar="bg-cyan"></div>
 			            </div>
-			            <div class="mt-6">
-			                <p class="text-small">Cum brodium resistere, omnes spatiies perdere varius, magnum lanistaes.</p>
+			            <div class="mt-6">			               
 			            </div>
 			        </div>
 			    </div>
@@ -470,11 +469,12 @@
 	    </div>
 
 	    <div id="ord2021">
-	    	<div data-role="panel" data-title-caption="Monthly Recap Report" data-collapsible="true" data-title-icon="<span class='mif-chart-line'></span>" class="mt-4">
+	    	<div data-role="panel" data-title-caption="Total Order of 2021" data-collapsible="true" data-title-icon="<span class='mif-chart-line'></span>" class="mt-4">
+			    
 			    <div class="row">
 			        <div class="cell-md-6 p-10">
 			            <h5 class="text-center">Sales: 1 Jan, 2014 - 30 Jul, 2014</h5>
-			            <canvas id="myChart1" width="50" height="50"></canvas>
+			            <canvas id="total2021" width="50" height="50"></canvas>
 			        </div>
 			        <div class="cell-md-6 p-10">
 			            <h5 class="text-center">Goal Completion</h5>
@@ -494,22 +494,174 @@
 			                </div>
 			                <div data-role="progress" data-value="35" data-cls-bar="bg-red"></div>
 			            </div>
+			            <div class="mt-6"></div>
+			        </div>
+			    </div>
+
+			    <hr>
+
+			    <div class="row">
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>17%</div>
+			            <div class="text-bold">$35,210.43</div>
+			            <div class="text-upper">TOTAL REVENUE</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-orange"><span class="">=</span>0</div>
+			            <div class="text-bold">$10,390.90</div>
+			            <div class="text-upper">TOTAL COST</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>20%</div>
+			            <div class="text-bold">$24,813.53</div>
+			            <div class="text-upper">TOTAL PROFIT</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-red"><span class="mif-arrow-drop-down"></span>18%</div>
+			            <div class="text-bold">1,200</div>
+			            <div class="text-upper">GOAL COMPLETIONS</div>
+			        </div>
+			    </div>
+			</div>
+
+			<div data-role="panel" data-title-caption="Monthly Report of order received bar chart" data-collapsible="true" data-title-icon="<span class='mif-chart-line'></span>" class="mt-4">
+			    <div class="row">
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Sales: 1 Jan, 2021 - 31 Dec, 2021</h5>
+			            <canvas id="monthlyBar2021" width="50" height="50"></canvas>
+			        </div>
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Goal Completion</h5>
 			            <div class="mt-6">
 			                <div class="clear">
-			                    <div class="place-left">Visit Premium Page</div>
-			                    <div class="place-right"><strong>480</strong></div>
+			                    <div class="place-left"> Total Order </div>
+			                    <div class="place-right">
+			                    	<strong>160</strong>
+			                    </div>
 			                </div>
-			                <div data-role="progress" data-value="35"></div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-cyan"></div>
 			            </div>
 			            <div class="mt-6">
 			                <div class="clear">
-			                    <div class="place-left">Send Inquiries</div>
-			                    <div class="place-right"><strong>250</strong></div>
+			                    <div class="place-left">Completed</div>
+			                    <div class="place-right"><strong>150</strong></div>
 			                </div>
-			                <div data-role="progress" data-value="35" data-cls-bar="bg-orange"></div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-red"></div>
 			            </div>
 			            <div class="mt-6">
-			                <p class="text-small">Cum brodium resistere, omnes spatiies perdere varius, magnum lanistaes.</p>
+			            	
+			            </div>
+			        </div>
+			    </div>
+
+			    <hr>
+
+			    <div class="row">
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>17%</div>
+			            <div class="text-bold">$35,210.43</div>
+			            <div class="text-upper">TOTAL REVENUE</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-orange"><span class="">=</span>0</div>
+			            <div class="text-bold">$10,390.90</div>
+			            <div class="text-upper">TOTAL COST</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>20%</div>
+			            <div class="text-bold">$24,813.53</div>
+			            <div class="text-upper">TOTAL PROFIT</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-red"><span class="mif-arrow-drop-down"></span>18%</div>
+			            <div class="text-bold">1,200</div>
+			            <div class="text-upper">GOAL COMPLETIONS</div>
+			        </div>
+			    </div>
+			</div>
+
+			<div data-role="panel" data-title-caption="Monthly Report of order received line chart" data-collapsible="true" data-title-icon="<span class='mif-chart-line'></span>" class="mt-4">
+			    <div class="row">
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Sales: 1 Jan, 2021 - 31 Dec, 2021</h5>
+			            <canvas id="monthlyLine2021" width="50" height="50"></canvas>
+			        </div>
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Goal Completion</h5>
+			            <div class="mt-6">
+			                <div class="clear">
+			                    <div class="place-left"> Total Order </div>
+			                    <div class="place-right">
+			                    	<strong>160</strong>
+			                    </div>
+			                </div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-cyan"></div>
+			            </div>
+			            <div class="mt-6">
+			                <div class="clear">
+			                    <div class="place-left">Completed</div>
+			                    <div class="place-right"><strong>150</strong></div>
+			                </div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-red"></div>
+			            </div>
+			            <div class="mt-6">
+			            	
+			            </div>
+			        </div>
+			    </div>
+
+			    <hr>
+
+			    <div class="row">
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>17%</div>
+			            <div class="text-bold">$35,210.43</div>
+			            <div class="text-upper">TOTAL REVENUE</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-orange"><span class="">=</span>0</div>
+			            <div class="text-bold">$10,390.90</div>
+			            <div class="text-upper">TOTAL COST</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-green"><span class="mif-arrow-drop-up"></span>20%</div>
+			            <div class="text-bold">$24,813.53</div>
+			            <div class="text-upper">TOTAL PROFIT</div>
+			        </div>
+			        <div class="cell-lg-3 cell-sm-6 text-center mt-4">
+			            <div class="fg-red"><span class="mif-arrow-drop-down"></span>18%</div>
+			            <div class="text-bold">1,200</div>
+			            <div class="text-upper">GOAL COMPLETIONS</div>
+			        </div>
+			    </div>
+			</div>
+
+			<div data-role="panel" data-title-caption="Monthly Report of order received line chart" data-collapsible="true" data-title-icon="<span class='mif-chart-line'></span>" class="mt-4">
+			    <div class="row">
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Sales: 1 Jan, 2021 - 31 Dec, 2021</h5>
+			            <canvas id="monthlyPie2021" width="50" height="50"></canvas>
+			        </div>
+			        <div class="cell-md-6 p-10">
+			            <h5 class="text-center">Goal Completion</h5>
+			            <div class="mt-6">
+			                <div class="clear">
+			                    <div class="place-left"> Total Order </div>
+			                    <div class="place-right">
+			                    	<strong>160</strong>
+			                    </div>
+			                </div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-cyan"></div>
+			            </div>
+			            <div class="mt-6">
+			                <div class="clear">
+			                    <div class="place-left">Completed</div>
+			                    <div class="place-right"><strong>150</strong></div>
+			                </div>
+			                <div data-role="progress" data-value="35" data-cls-bar="bg-red"></div>
+			            </div>
+			            <div class="mt-6">
+			            	
 			            </div>
 			        </div>
 			    </div>

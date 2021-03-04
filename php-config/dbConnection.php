@@ -19,16 +19,16 @@ class DbConnection{
     private $_conn;
 
     // __construct
-    public function __construct() {
-    	try {
+    public function __construct(){
+    	try{
         	$this->_conn = oci_connect("inv", "inv", "192.168.100.157:1522/erp");
-	    } catch(Exception $e) {
+	    }catch(Exception $e){
 			echo "Error!: " . $e->getMessage();
 		}
-
     }
+
     // return Connection
-    public function returnConnection() {
+    public function returnConnection(){
         return $this->_conn;
     }
 }
